@@ -52,6 +52,7 @@ class TopCategoriesProvider
                                     <div style='padding: 10px' class='card-subtitle mb-2 text-muted'>
                                         <i class='bi bi-clock'></i> $formatted_time
                                     </div>
+                                    <div class=''
                                     <div class='card-text'>$description</div>
                                     <div class='card-link result'><a href='index.php?page=product&id=$id'>View more</a></div>
                                 </div>
