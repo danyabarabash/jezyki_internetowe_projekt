@@ -4,14 +4,20 @@ include("classes/topCategoriesProvider.php");
 include("header.php");
 include("footer.php");
 
-
-
 ?>
 <?=template_header('Home')?>
 
 <div class="header">
     <div class="container header__container">
-        <h1 class="col-lg-6 mx-auto display-5 header__heading">Where will you go?</h1>
+        <h1 class="col-lg-6 mx-auto display-5 header__heading">
+            <?php
+                if (isset($_SESSION['user'])) {
+                    echo "Where will you go, " . $_SESSION['user'] . "?";
+                } else {
+                    echo "Where will you go?";
+                }
+            ?>
+        </h1>
         <div class="col-lg-6 mx-auto">
             <form class="header__form" action="search.php" method="GET">
                     <input type="text" class="form-control" id="inputSearch" placeholder="Search for country..." name="term">
@@ -21,6 +27,7 @@ include("footer.php");
     </div>
 
 </div>
+
 <div class="container destinations">
     <h3>Our Destinations</h3>
     <p>Some of the top destinations for your next summer adventure.</p>

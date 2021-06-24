@@ -28,24 +28,6 @@ class TopCategoriesProvider
             $formatted_time = $row["formatted_time"];
 
 
-//            $resultsHtml .= "<div class='col-sm-3'>
-//
-//								<h5 class='title'>
-//									<a class='result' href='index.php?page=product&id=$id'>
-//										$name
-//									</a>
-//								</h5>
-//								<span class='description'>$description</span>
-//								<div class='time'>
-//								<span class='badge bg-info text-dark'>$formatted_time</span>
-//								</div>
-//								<div>
-//								<a class='result' href='index.php?page=product&id=$id'>
-//										View more
-//									</a>
-//								</div>
-//								</div>";
-
             $resultsHtml .= "<div class='col-12 col-lg-4 col-md-6 col-sm-3'>
                                 <div class='card-body'>
                                     <div class='card-title display-6'><a href='index.php?page=product&id=$id'>$name</a></div>

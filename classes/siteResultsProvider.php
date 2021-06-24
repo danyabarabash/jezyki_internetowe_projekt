@@ -10,7 +10,7 @@ class SiteResultsProvider {
 
     public function getNumResults($term) {
 
-        $query = $this->con->prepare("SELECT COUNT(*) as total
+        $query = $this->con->prepare("SELECT COUNT (*) as total
         FROM journey WHERE name LIKE :term
         OR description LIKE :term");
 
