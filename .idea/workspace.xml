@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6a2e4b-7dac-4315-8bd7-db296983ae11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/userProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/siteResultsProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/siteResultsProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/topCategoriesProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/topCategoriesProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,8 @@
       <workItem from="1624284718134" duration="16681000" />
       <workItem from="1624380337020" duration="18146000" />
       <workItem from="1624452535617" duration="14835000" />
-      <workItem from="1624527133698" duration="5703000" />
+      <workItem from="1624527133698" duration="6514000" />
+      <workItem from="1624534030103" duration="1825000" />
     </task>
     <servers />
   </component>
@@ -72,5 +70,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
